@@ -1,0 +1,10 @@
+{
+  "bitwise": true,
+  "boss": true,
+  "curly": true,
+  "eqeqeq": true,
+  "noarg": true,
+  "quotmark": "double",
+  "undef": true,
+  "unused": true
+}

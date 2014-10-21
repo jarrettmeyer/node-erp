@@ -1,0 +1,8 @@
+{
+  "name": "erp-models",
+  "version": "0.0.0",
+  "description": "Library for models",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {}
+}
