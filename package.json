@@ -4,8 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
-    "rebuild": "",
-    "start-api": "node ./erp-api/app"
+    "links": "cd ./erp-api; npm link ../erp-config; cd ..",
+    "start": "npm run start-api",
+    "start-api": "node ./erp-api/app",
+    "test": "echo Coming soon..."
   },
   "dependencies": {},
   "devDependencies": {
