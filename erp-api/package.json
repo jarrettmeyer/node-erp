@@ -4,6 +4,7 @@
   "description": "API for the ERP project.",
   "private": true,
   "dependencies": {
+    "erp-config": "file:../erp-config",
     "express": "^4.9.8"
   }
 }
