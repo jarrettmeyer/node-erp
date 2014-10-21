@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "links": "cd ./erp-api; npm link ../erp-config; cd ..",
-    "start": "npm run start-api",
+    "link-api": "cd ./erp-api; npm link ../erp-config; cd ..",
+    "links": "npm run link-api",
+    "start": "npm run links; npm run start-api",
     "start-api": "node ./erp-api/app",
     "test": "echo Coming soon..."
   },
